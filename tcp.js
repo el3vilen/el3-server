@@ -1,7 +1,7 @@
 
 const net = require('net');
 
-const tcpPort = 3001;
+const tcpPort = 5173;
 
 // TCP server
 const tcpServer = net.createServer((socket) => {
